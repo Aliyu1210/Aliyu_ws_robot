@@ -1,0 +1,33 @@
+[3.584s] Invoking command in '/home/vboxuser/Ali_ws/src/xarm_ros2/uf_ros_lib': PYTHONPATH=/home/vboxuser/Ali_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Ali_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uf_ros_lib build --build-base /home/vboxuser/Ali_ws/build/uf_ros_lib/build install --record /home/vboxuser/Ali_ws/build/uf_ros_lib/install.log --single-version-externally-managed install_data
+[3.819s] /home/vboxuser/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.819s]   warnings.warn(msg)
+[3.962s] running egg_info
+[3.981s] writing ../../../build/uf_ros_lib/uf_ros_lib.egg-info/PKG-INFO
+[3.981s] writing dependency_links to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/dependency_links.txt
+[3.982s] writing requirements to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/requires.txt
+[3.983s] writing top-level names to ../../../build/uf_ros_lib/uf_ros_lib.egg-info/top_level.txt
+[4.015s] reading manifest file '../../../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[4.019s] writing manifest file '../../../build/uf_ros_lib/uf_ros_lib.egg-info/SOURCES.txt'
+[4.020s] running build
+[4.020s] running build_py
+[4.020s] copying uf_ros_lib/moveit_configs_builder.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib
+[4.023s] copying uf_ros_lib/uf_robot_utils.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib
+[4.024s] copying uf_ros_lib/parameter_descriptions.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib
+[4.027s] copying uf_ros_lib/__init__.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib
+[4.027s] copying uf_ros_lib/substitutions/kinematics.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[4.028s] copying uf_ros_lib/substitutions/planning_pipelines.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[4.028s] copying uf_ros_lib/substitutions/common.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[4.029s] copying uf_ros_lib/substitutions/controllers.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[4.030s] copying uf_ros_lib/substitutions/joint_limits.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[4.034s] copying uf_ros_lib/substitutions/__init__.py -> /home/vboxuser/Ali_ws/build/uf_ros_lib/build/lib/uf_ros_lib/substitutions
+[4.034s] running install
+[4.039s] running install_lib
+[4.067s] running install_data
+[4.067s] copying resource/uf_ros_lib -> /home/vboxuser/Ali_ws/install/uf_ros_lib/share/ament_index/resource_index/packages
+[4.067s] copying package.xml -> /home/vboxuser/Ali_ws/install/uf_ros_lib/share/uf_ros_lib
+[4.067s] running install_egg_info
+[4.103s] removing '/home/vboxuser/Ali_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib-0.0.0-py3.10.egg-info' (and everything under it)
+[4.108s] Copying ../../../build/uf_ros_lib/uf_ros_lib.egg-info to /home/vboxuser/Ali_ws/install/uf_ros_lib/lib/python3.10/site-packages/uf_ros_lib-0.0.0-py3.10.egg-info
+[4.108s] running install_scripts
+[4.192s] writing list of installed files to '/home/vboxuser/Ali_ws/build/uf_ros_lib/install.log'
+[4.240s] Invoked command in '/home/vboxuser/Ali_ws/src/xarm_ros2/uf_ros_lib' returned '0': PYTHONPATH=/home/vboxuser/Ali_ws/build/uf_ros_lib/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Ali_ws/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/uf_ros_lib build --build-base /home/vboxuser/Ali_ws/build/uf_ros_lib/build install --record /home/vboxuser/Ali_ws/build/uf_ros_lib/install.log --single-version-externally-managed install_data

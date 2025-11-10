@@ -1,0 +1,732 @@
+[0.131s] Invoking command in '/home/vboxuser/Ali_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib /usr/bin/cmake /home/vboxuser/Ali_ws/src/orbbec_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/orbbec_camera_msgs
+[0.937s] -- The C compiler identification is GNU 11.4.0
+[1.400s] -- The CXX compiler identification is GNU 11.4.0
+[1.548s] -- Detecting C compiler ABI info
+[2.103s] -- Detecting C compiler ABI info - done
+[2.204s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.205s] -- Detecting C compile features
+[2.205s] -- Detecting C compile features - done
+[2.205s] -- Detecting CXX compiler ABI info
+[4.015s] -- Detecting CXX compiler ABI info - done
+[4.069s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.069s] -- Detecting CXX compile features
+[4.069s] -- Detecting CXX compile features - done
+[4.211s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.463s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.531s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.531s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.531s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.531s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.728s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.020s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.814s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[12.815s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[12.899s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[12.900s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[12.900s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[12.900s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[12.952s] -- Found PythonExtra: .so  
+[13.211s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.321s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.321s] -- Added test 'lint_cmake' to check CMake code style
+[13.321s] -- Added test 'xmllint' to check XML markup files
+[13.321s] -- Configuring done
+[13.370s] -- Generating done
+[13.394s] -- Build files have been written to: /home/vboxuser/Ali_ws/build/orbbec_camera_msgs
+[13.478s] Invoked command in '/home/vboxuser/Ali_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib /usr/bin/cmake /home/vboxuser/Ali_ws/src/orbbec_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/orbbec_camera_msgs
+[13.479s] Invoking command in '/home/vboxuser/Ali_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/orbbec_camera_msgs -- -j4 -l4
+[13.715s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.722s] [  0%] Built target orbbec_camera_msgs__cpp
+[17.788s] [  0%] Built target ament_cmake_python_copy_orbbec_camera_msgs
+[17.823s] [  1%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[21.208s] [  2%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[22.469s] [  2%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/device_status__type_support.cpp.o[0m
+[23.268s] [  3%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[24.256s] [  4%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[24.857s] [  4%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[25.505s] [  5%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/msg/detail/dds_fastrtps/rgbd__type_support.cpp.o[0m
+[26.283s] [  5%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_bool__type_support.cpp.o[0m
+[26.895s] [  6%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o[0m
+[27.391s] [  7%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o[0m
+[27.937s] [  7%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o[0m
+[28.524s] [  8%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o[0m
+[29.269s] [  9%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_filter__type_support.cpp.o[0m
+[29.945s] [  9%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o[0m
+[30.378s] [ 10%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_string__type_support.cpp.o[0m
+[30.977s] [ 10%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_arrays__type_support.cpp.o[0m
+[31.557s] [ 11%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/get_user_calib_params__type_support.cpp.o[0m
+[32.359s] [ 12%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orbbec_camera_msgs/srv/detail/dds_fastrtps/set_user_calib_params__type_support.cpp.o[0m
+[33.289s] [ 12%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.458s] [ 12%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[33.505s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35.440s] [ 13%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/device_info__type_support.cpp.o[0m
+[36.003s] [ 13%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/device_status__type_support.cpp.o[0m
+[36.705s] [ 14%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[37.246s] [ 15%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[37.555s] [ 15%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/imu_info__type_support.cpp.o[0m
+[38.142s] [ 16%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/msg/detail/rgbd__type_support.cpp.o[0m
+[38.594s] [ 17%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_bool__type_support.cpp.o[0m
+[38.991s] [ 17%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_device_info__type_support.cpp.o[0m
+[39.520s] [ 18%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o[0m
+[40.176s] [ 18%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_int32__type_support.cpp.o[0m
+[40.672s] [ 19%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_string__type_support.cpp.o[0m
+[41.172s] [ 20%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_filter__type_support.cpp.o[0m
+[41.675s] [ 20%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_int32__type_support.cpp.o[0m
+[42.239s] [ 21%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_string__type_support.cpp.o[0m
+[42.727s] [ 22%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_arrays__type_support.cpp.o[0m
+[43.249s] [ 22%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.cpp.o[0m
+[43.820s] [ 23%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.cpp.o[0m
+[44.590s] [ 24%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[44.770s] [ 24%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_cpp
+[45.052s] running egg_info
+[45.082s] creating orbbec_camera_msgs.egg-info
+[45.083s] writing orbbec_camera_msgs.egg-info/PKG-INFO
+[45.084s] writing dependency_links to orbbec_camera_msgs.egg-info/dependency_links.txt
+[45.085s] writing top-level names to orbbec_camera_msgs.egg-info/top_level.txt
+[45.086s] writing manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[45.158s] reading manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[45.161s] writing manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[45.202s] [ 24%] Built target ament_cmake_python_build_orbbec_camera_msgs_egg
+[45.217s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[47.458s] [ 25%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[47.797s] [ 26%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[48.467s] [ 26%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[48.817s] [ 27%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[49.201s] [ 28%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[49.485s] [ 28%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_bool__type_support.cpp.o[0m
+[49.778s] [ 29%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[50.142s] [ 30%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[50.523s] [ 30%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[50.856s] [ 31%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[51.446s] [ 31%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_filter__type_support.cpp.o[0m
+[51.792s] [ 32%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[52.112s] [ 33%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_string__type_support.cpp.o[0m
+[52.395s] [ 33%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_arrays__type_support.cpp.o[0m
+[52.749s] [ 34%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/get_user_calib_params__type_support.cpp.o[0m
+[53.094s] [ 35%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/srv/set_user_calib_params__type_support.cpp.o[0m
+[53.371s] [ 36%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orbbec_camera_msgs/msg/device_status__type_support.cpp.o[0m
+[53.668s] [ 36%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_cpp.so[0m
+[53.729s] [ 36%] Built target orbbec_camera_msgs__rosidl_typesupport_cpp
+[53.760s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[57.470s] [ 37%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/device_info__functions.c.o[0m
+[57.547s] [ 38%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[57.617s] [ 39%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/imu_info__functions.c.o[0m
+[57.733s] [ 39%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/rgbd__functions.c.o[0m
+[57.814s] [ 40%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_bool__functions.c.o[0m
+[57.907s] [ 40%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_device_info__functions.c.o[0m
+[57.997s] [ 41%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_camera_info__functions.c.o[0m
+[58.094s] [ 42%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_int32__functions.c.o[0m
+[58.172s] [ 42%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_string__functions.c.o[0m
+[58.252s] [ 43%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_filter__functions.c.o[0m
+[58.383s] [ 44%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_int32__functions.c.o[0m
+[58.567s] [ 44%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_string__functions.c.o[0m
+[58.973s] [ 45%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_arrays__functions.c.o[0m
+[59.094s] [ 45%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/get_user_calib_params__functions.c.o[0m
+[59.207s] [ 46%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/srv/detail/set_user_calib_params__functions.c.o[0m
+[59.340s] [ 46%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[59.426s] [ 47%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/orbbec_camera_msgs/msg/detail/device_status__functions.c.o[0m
+[59.583s] [ 48%] [32m[1mLinking C shared library liborbbec_camera_msgs__rosidl_generator_c.so[0m
+[59.720s] [ 48%] Built target orbbec_camera_msgs__rosidl_generator_c
+[59.756s] [ 49%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[62.210s] [ 49%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/device_info__type_support_c.cpp.o[0m
+[62.592s] [ 50%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/device_status__type_support_c.cpp.o[0m
+[62.954s] [ 51%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[63.326s] [ 51%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[63.688s] [ 52%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/imu_info__type_support_c.cpp.o[0m
+[64.162s] [ 53%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/msg/detail/rgbd__type_support_c.cpp.o[0m
+[64.757s] [ 53%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_bool__type_support_c.cpp.o[0m
+[65.243s] [ 54%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o[0m
+[65.941s] [ 54%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_camera_info__type_support_c.cpp.o[0m
+[66.367s] [ 55%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_int32__type_support_c.cpp.o[0m
+[67.152s] [ 56%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_string__type_support_c.cpp.o[0m
+[67.814s] [ 56%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_filter__type_support_c.cpp.o[0m
+[68.279s] [ 57%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_int32__type_support_c.cpp.o[0m
+[68.753s] [ 58%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_string__type_support_c.cpp.o[0m
+[69.135s] [ 58%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_arrays__type_support_c.cpp.o[0m
+[69.605s] [ 59%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support_c.cpp.o[0m
+[69.935s] [ 60%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support_c.cpp.o[0m
+[70.321s] [ 60%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[70.571s] [ 60%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c
+[70.604s] [ 61%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[71.674s] [ 61%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[71.744s] [ 62%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[71.820s] [ 62%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[71.892s] [ 63%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/imu_info__type_support.cpp.o[0m
+[71.952s] [ 63%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/rgbd__type_support.cpp.o[0m
+[72.002s] [ 64%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_bool__type_support.cpp.o[0m
+[72.092s] [ 65%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[72.200s] [ 65%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[72.262s] [ 66%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[72.339s] [ 67%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[72.414s] [ 67%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_filter__type_support.cpp.o[0m
+[72.495s] [ 68%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[72.574s] [ 68%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_string__type_support.cpp.o[0m
+[72.650s] [ 69%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_arrays__type_support.cpp.o[0m
+[72.724s] [ 70%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/get_user_calib_params__type_support.cpp.o[0m
+[72.835s] [ 70%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/srv/set_user_calib_params__type_support.cpp.o[0m
+[72.920s] [ 71%] [32mBuilding CXX object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/orbbec_camera_msgs/msg/device_status__type_support.cpp.o[0m
+[72.974s] [ 72%] [32m[1mLinking CXX shared library liborbbec_camera_msgs__rosidl_typesupport_c.so[0m
+[73.107s] [ 72%] Built target orbbec_camera_msgs__rosidl_typesupport_c
+[73.137s] [ 73%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[74.659s] [ 74%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/device_info__type_support.c.o[0m
+[74.720s] [ 74%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[74.792s] [ 75%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/imu_info__type_support.c.o[0m
+[74.843s] [ 76%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/rgbd__type_support.c.o[0m
+[74.902s] [ 76%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_bool__type_support.c.o[0m
+[74.976s] [ 77%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_device_info__type_support.c.o[0m
+[75.030s] [ 78%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.c.o[0m
+[75.076s] [ 78%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_int32__type_support.c.o[0m
+[75.122s] [ 79%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_string__type_support.c.o[0m
+[75.169s] [ 80%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_filter__type_support.c.o[0m
+[75.495s] [ 80%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_int32__type_support.c.o[0m
+[75.566s] [ 81%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_string__type_support.c.o[0m
+[75.635s] [ 81%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_arrays__type_support.c.o[0m
+[75.706s] [ 82%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.c.o[0m
+[75.776s] [ 83%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.c.o[0m
+[76.135s] [ 84%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[76.220s] [ 84%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orbbec_camera_msgs/msg/detail/device_status__type_support.c.o[0m
+[76.260s] [ 84%] [32m[1mLinking C shared library liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[76.334s] [ 84%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c
+[76.382s] [ 84%] Built target orbbec_camera_msgs
+[76.436s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[79.872s] [ 85%] Built target orbbec_camera_msgs__py
+[79.923s] [ 85%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_device_info_s.c.o[0m
+[80.055s] [ 85%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_metadata_s.c.o[0m
+[80.167s] [ 86%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_imu_info_s.c.o[0m
+[80.284s] [ 86%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_rgbd_s.c.o[0m
+[80.402s] [ 87%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_bool_s.c.o[0m
+[80.515s] [ 88%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_device_info_s.c.o[0m
+[80.675s] [ 88%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_camera_info_s.c.o[0m
+[80.784s] [ 89%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_int32_s.c.o[0m
+[80.934s] [ 90%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_string_s.c.o[0m
+[81.107s] [ 90%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_filter_s.c.o[0m
+[81.245s] [ 91%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_int32_s.c.o[0m
+[81.402s] [ 92%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_string_s.c.o[0m
+[81.544s] [ 92%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_arrays_s.c.o[0m
+[81.698s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_get_user_calib_params_s.c.o[0m
+[81.823s] [ 93%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/srv/_set_user_calib_params_s.c.o[0m
+[81.942s] [ 94%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_extrinsics_s.c.o[0m
+[82.069s] [ 95%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/orbbec_camera_msgs/msg/_device_status_s.c.o[0m
+[82.189s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/liborbbec_camera_msgs__rosidl_generator_py.so[0m
+[82.260s] [ 96%] Built target orbbec_camera_msgs__rosidl_generator_py
+[82.303s] [ 97%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[82.517s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[82.826s] [ 97%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[82.864s] [ 98%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[83.082s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[83.143s] [ 98%] Built target orbbec_camera_msgs__rosidl_typesupport_c__pyext
+[83.195s] [ 99%] [32mBuilding C object CMakeFiles/orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[83.404s] [100%] [32m[1mLinking C shared library rosidl_generator_py/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[83.500s] [100%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[83.518s] Invoked command in '/home/vboxuser/Ali_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/orbbec_camera_msgs -- -j4 -l4
+[83.519s] Invoking command in '/home/vboxuser/Ali_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/orbbec_camera_msgs
+[83.536s] -- Install configuration: ""
+[83.537s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/orbbec_camera_msgs
+[83.538s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[83.538s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[83.538s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.h
+[83.538s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_arrays.h
+[83.539s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_user_calib_params.h
+[83.539s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[83.539s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__functions.h
+[83.540s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__type_support.h
+[83.540s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.h
+[83.540s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__functions.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__functions.c
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__functions.c
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__functions.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__functions.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__functions.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__functions.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__functions.c
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.h
+[83.555s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__functions.c
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__functions.c
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__functions.c
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__functions.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__functions.c
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__type_support.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__functions.c
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__functions.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__functions.c
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__functions.c
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__functions.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__functions.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__functions.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__functions.c
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_user_calib_params.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.h
+[83.556s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_filter.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__type_support.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__struct.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__functions.c
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__functions.c
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__struct.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__struct.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__functions.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__functions.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__functions.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__functions.h
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__functions.c
+[83.557s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__functions.c
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__functions.c
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__functions.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__functions.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__functions.c
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_status.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/imu_info.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rgbd.h
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.sh
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/library_path.dsv
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so
+[83.558s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_c.so" to ""
+[83.558s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[83.558s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[83.558s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[83.558s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[83.559s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__rosidl_typesupport_fastrtps_c.h
+[83.559s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[83.559s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[83.559s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__rosidl_typesupport_fastrtps_c.h
+[83.559s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[83.559s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__rosidl_typesupport_fastrtps_c.h
+[83.559s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[83.559s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[83.559s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_c.h
+[83.560s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__rosidl_typesupport_fastrtps_c.h
+[83.560s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[83.560s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[83.560s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[83.561s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_c.h
+[83.561s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[83.561s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_c.h
+[83.561s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[83.562s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[83.562s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[83.562s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[83.563s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[83.563s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[83.563s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[83.563s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.c
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__rosidl_typesupport_introspection_c.h
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.c
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.c
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.c
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.c
+[83.564s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__rosidl_typesupport_introspection_c.h
+[83.565s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__rosidl_typesupport_introspection_c.h
+[83.565s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_c.h
+[83.565s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__type_support.c
+[83.565s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__type_support.c
+[83.565s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.c
+[83.565s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__rosidl_typesupport_introspection_c.h
+[83.565s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[83.566s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.c
+[83.566s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[83.566s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.c
+[83.567s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.c
+[83.567s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[83.567s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[83.568s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[83.568s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[83.568s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[83.569s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.c
+[83.569s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.c
+[83.569s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.c
+[83.569s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.c
+[83.570s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.c
+[83.570s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[83.570s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__type_support.c
+[83.571s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[83.571s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_c.h
+[83.571s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[83.588s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__rosidl_typesupport_introspection_c.h
+[83.588s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so
+[83.588s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[83.588s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so
+[83.588s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_c.so" to ""
+[83.588s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[83.588s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_user_calib_params.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_bool.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_int32.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_int32.hpp
+[83.589s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__traits.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__builder.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__struct.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__traits.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__builder.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__builder.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__struct.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__builder.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__traits.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__traits.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__traits.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__builder.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__builder.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__type_support.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__builder.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__traits.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__builder.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__struct.hpp
+[83.589s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__struct.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__traits.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__struct.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__traits.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__struct.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__builder.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__traits.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__struct.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__struct.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__struct.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__traits.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__type_support.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__builder.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__struct.hpp
+[83.590s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_camera_info.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_arrays.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_string.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_string.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_user_calib_params.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/get_device_info.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/set_filter.hpp
+[83.591s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/imu_info.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/metadata.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_status.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rgbd.hpp
+[83.591s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__struct.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__traits.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__traits.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__traits.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__struct.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__struct.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__traits.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__type_support.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__builder.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__struct.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__builder.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__builder.hpp
+[83.591s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__builder.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__struct.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__traits.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__builder.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__builder.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__traits.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__struct.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/device_info.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/extrinsics.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[83.592s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[83.592s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[83.592s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/dds_fastrtps
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[83.592s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[83.592s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[83.592s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[83.593s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/dds_fastrtps
+[83.593s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_fastrtps_cpp.hpp
+[83.593s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[83.593s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[83.593s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[83.593s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__rosidl_typesupport_fastrtps_cpp.hpp
+[83.593s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[83.593s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[83.594s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[83.594s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs
+[83.594s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv
+[83.594s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail
+[83.594s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[83.594s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__rosidl_typesupport_introspection_cpp.hpp
+[83.594s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__type_support.cpp
+[83.594s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__type_support.cpp
+[83.594s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_user_calib_params__rosidl_typesupport_introspection_cpp.hpp
+[83.594s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[83.594s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_camera_info__type_support.cpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_user_calib_params__type_support.cpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__rosidl_typesupport_introspection_cpp.hpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__rosidl_typesupport_introspection_cpp.hpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_string__type_support.cpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__type_support.cpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_filter__rosidl_typesupport_introspection_cpp.hpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_arrays__type_support.cpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_int32__type_support.cpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_int32__type_support.cpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/get_bool__type_support.cpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/srv/detail/set_string__type_support.cpp
+[83.600s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg
+[83.600s] -- Up-to-date: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__type_support.cpp
+[83.600s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_info__type_support.cpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/imu_info__type_support.cpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__rosidl_typesupport_introspection_cpp.hpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/rgbd__type_support.cpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/metadata__type_support.cpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/include/orbbec_camera_msgs/orbbec_camera_msgs/msg/detail/device_status__rosidl_typesupport_introspection_cpp.hpp
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[83.601s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_cpp.so
+[83.601s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.sh
+[83.601s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/pythonpath.dsv
+[83.602s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.5.4-py3.10.egg-info
+[83.602s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.5.4-py3.10.egg-info/SOURCES.txt
+[83.602s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.5.4-py3.10.egg-info/top_level.txt
+[83.603s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.5.4-py3.10.egg-info/PKG-INFO
+[83.603s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs-2.5.4-py3.10.egg-info/dependency_links.txt
+[83.603s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs
+[83.604s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[83.604s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[83.605s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[83.605s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/liborbbec_camera_msgs__rosidl_generator_py.so
+[83.606s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv
+[83.606s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_user_calib_params.py
+[83.614s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32.py
+[83.614s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info.py
+[83.614s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_user_calib_params_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_filter_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_user_calib_params_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_arrays_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_user_calib_params.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_arrays.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_filter.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/__init__.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_c.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/_orbbec_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_status.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info_s.c
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info.py
+[83.615s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics_s.c
+[83.616s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info.py
+[83.616s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata.py
+[83.616s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info_s.c
+[83.616s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_status_s.c
+[83.616s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/__init__.py
+[83.616s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/__init__.py
+[83.708s] Listing '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs'...
+[83.708s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/__init__.py'...
+[83.708s] Listing '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/__init__.py'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_info.py'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_device_status.py'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_extrinsics.py'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_imu_info.py'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_metadata.py'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/msg/_rgbd.py'...
+[83.709s] Listing '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/__init__.py'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_bool.py'...
+[83.709s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_camera_info.py'...
+[83.710s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_device_info.py'...
+[83.710s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_int32.py'...
+[83.710s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_string.py'...
+[83.710s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_get_user_calib_params.py'...
+[83.710s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_arrays.py'...
+[83.710s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_filter.py'...
+[83.710s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_int32.py'...
+[83.710s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_string.py'...
+[83.710s] Compiling '/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/srv/_set_user_calib_params.py'...
+[83.720s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[83.720s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[83.720s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[83.720s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[83.720s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[83.720s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages/orbbec_camera_msgs/orbbec_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[83.720s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_py.so
+[83.720s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib/liborbbec_camera_msgs__rosidl_generator_py.so" to ""
+[83.721s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.idl
+[83.721s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceStatus.idl
+[83.721s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.idl
+[83.721s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.idl
+[83.721s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.idl
+[83.721s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.idl
+[83.721s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.idl
+[83.721s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.idl
+[83.721s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.idl
+[83.746s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.idl
+[83.746s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.idl
+[83.746s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetFilter.idl
+[83.746s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.idl
+[83.746s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.idl
+[83.746s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetArrays.idl
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetUserCalibParams.idl
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetUserCalibParams.idl
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceInfo.msg
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/DeviceStatus.msg
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Extrinsics.msg
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/Metadata.msg
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/IMUInfo.msg
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/msg/RGBD.msg
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool.srv
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Request.msg
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetBool_Response.msg
+[83.747s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo.srv
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Request.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetDeviceInfo_Response.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo.srv
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Request.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetCameraInfo_Response.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32.srv
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Request.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetInt32_Response.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString.srv
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Request.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetString_Response.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetFilter.srv
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetFilter_Request.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetFilter_Response.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32.srv
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Request.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetInt32_Response.msg
+[83.748s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString.srv
+[83.749s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Request.msg
+[83.749s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetString_Response.msg
+[83.749s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetArrays.srv
+[83.749s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetArrays_Request.msg
+[83.749s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetArrays_Response.msg
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetUserCalibParams.srv
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetUserCalibParams_Request.msg
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/GetUserCalibParams_Response.msg
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetUserCalibParams.srv
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetUserCalibParams_Request.msg
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/srv/SetUserCalibParams_Response.msg
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/package_run_dependencies/orbbec_camera_msgs
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/parent_prefix_path/orbbec_camera_msgs
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.sh
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/ament_prefix_path.dsv
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.sh
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/environment/path.dsv
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.bash
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.sh
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.zsh
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/local_setup.dsv
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/ament_index/resource_index/packages/orbbec_camera_msgs
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_cppExport.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[83.750s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/export_orbbec_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/cmake/orbbec_camera_msgsConfig-version.cmake
+[83.751s] -- Installing: /home/vboxuser/Ali_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.xml
+[83.778s] Invoked command in '/home/vboxuser/Ali_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/orbbec_camera_msgs

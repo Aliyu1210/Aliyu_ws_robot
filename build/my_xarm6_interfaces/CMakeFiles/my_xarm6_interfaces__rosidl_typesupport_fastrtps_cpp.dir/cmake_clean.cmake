@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/my_xarm6_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_xarm6_interfaces/srv/detail/dds_fastrtps/object_position__type_support.cpp.o"
+  "CMakeFiles/my_xarm6_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_xarm6_interfaces/srv/detail/dds_fastrtps/object_position__type_support.cpp.o.d"
+  "CMakeFiles/my_xarm6_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_xarm6_interfaces/srv/detail/dds_fastrtps/place_position__type_support.cpp.o"
+  "CMakeFiles/my_xarm6_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_xarm6_interfaces/srv/detail/dds_fastrtps/place_position__type_support.cpp.o.d"
+  "libmy_xarm6_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libmy_xarm6_interfaces__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/my_xarm6_interfaces/srv/detail/dds_fastrtps/object_position__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/my_xarm6_interfaces/srv/detail/dds_fastrtps/place_position__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/my_xarm6_interfaces/srv/detail/object_position__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/my_xarm6_interfaces/srv/detail/place_position__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/my_xarm6_interfaces__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

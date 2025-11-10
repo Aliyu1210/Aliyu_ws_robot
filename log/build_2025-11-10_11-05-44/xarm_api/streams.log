@@ -1,0 +1,7 @@
+[0.101s] Invoking command in '/home/vboxuser/Ali_ws/build/xarm_api': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk:/home/vboxuser/Ali_ws/install/xarm_msgs:/home/vboxuser/Ali_ws/install/xarm_description CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk:/home/vboxuser/Ali_ws/install/xarm_msgs:/home/vboxuser/Ali_ws/install/xarm_description LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/install/xarm_msgs/lib PYTHONPATH=/home/vboxuser/Ali_ws/install/xarm_msgs/local/lib/python3.10/dist-packages /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/xarm_api -- -j4 -l4
+[0.775s] [ 15%] Built target xarm_ros_client
+[0.810s] [ 30%] Built target test_robot_states
+[0.863s] [ 53%] Built target xarm_ros_driver
+[0.895s] [ 69%] Built target test_xarm_velo_move
+[0.895s] [ 84%] Built target test_xarm_ros_client
+[1.002s] [100%] Built target xarm_driver_node

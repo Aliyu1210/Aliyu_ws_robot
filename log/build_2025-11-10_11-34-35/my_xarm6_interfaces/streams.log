@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/Ali_ws/src/my_xarm6_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/my_xarm6_interfaces
+[0.732s] -- The C compiler identification is GNU 11.4.0
+[1.245s] -- The CXX compiler identification is GNU 11.4.0
+[1.273s] -- Detecting C compiler ABI info
+[1.442s] -- Detecting C compiler ABI info - done
+[1.460s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.462s] -- Detecting C compile features
+[1.467s] -- Detecting C compile features - done
+[1.472s] -- Detecting CXX compiler ABI info
+[1.667s] -- Detecting CXX compiler ABI info - done
+[1.683s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.683s] -- Detecting CXX compile features
+[1.683s] -- Detecting CXX compile features - done
+[1.691s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.210s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.298s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.302s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.313s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.441s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.473s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.545s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[2.545s]   rosidl_generate_interfaces() the passed file 'srv/PlacePosition.srv'
+[2.545s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.545s]   '/home/vboxuser/Ali_ws/src/my_xarm6_interfaces'
+[2.545s] Call Stack (most recent call first):
+[2.545s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[2.545s] 
+[2.545s] [0m
+[2.545s] -- Configuring incomplete, errors occurred!
+[2.545s] See also "/home/vboxuser/Ali_ws/build/my_xarm6_interfaces/CMakeFiles/CMakeOutput.log".
+[2.554s] Invoked command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/Ali_ws/src/my_xarm6_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/my_xarm6_interfaces

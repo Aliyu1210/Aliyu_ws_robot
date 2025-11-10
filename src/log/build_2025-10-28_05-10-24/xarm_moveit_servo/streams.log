@@ -1,0 +1,107 @@
+[0.036s] Invoking command in '/home/vboxuser/Ali_ws/src/build/xarm_moveit_servo': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/home/vboxuser/Ali_ws/src/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/src/install/xarm_controller/lib:/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Ali_ws/src/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vboxuser/Ali_ws/src/xarm_ros2/xarm_moveit_servo -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/src/install/xarm_moveit_servo
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.178s] -- The CXX compiler identification is GNU 11.4.0
+[0.194s] -- Detecting C compiler ABI info
+[0.285s] -- Detecting C compiler ABI info - done
+[0.295s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.296s] -- Detecting C compile features
+[0.296s] -- Detecting C compile features - done
+[0.302s] -- Detecting CXX compiler ABI info
+[0.416s] -- Detecting CXX compiler ABI info - done
+[0.423s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.425s] -- Detecting CXX compile features
+[0.425s] -- Detecting CXX compile features - done
+[0.429s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.606s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.721s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.772s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.787s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.788s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.802s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.829s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.870s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.873s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.999s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.035s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.076s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.081s] -- Looking for pthread.h
+[1.178s] -- Looking for pthread.h - found
+[1.179s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.287s] -- Found Threads: TRUE  
+[1.341s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.374s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.417s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.440s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[1.520s] -- Found moveit_msgs: 2.2.1 (/opt/ros/humble/share/moveit_msgs/cmake)
+[1.661s] -- Found moveit_ros_planning: 2.5.9 (/opt/ros/humble/share/moveit_ros_planning/cmake)
+[1.691s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.882s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.964s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.981s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.016s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.162s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.250s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.252s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.324s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.447s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.452s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.452s] -- Configured cppcheck include dirs: /home/vboxuser/Ali_ws/src/xarm_ros2/xarm_moveit_servo/include
+[2.452s] -- Configured cppcheck exclude dirs and/or files: 
+[2.454s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.454s] -- Configured cpplint exclude dirs and/or files: 
+[2.455s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.456s] -- Added test 'lint_cmake' to check CMake code style
+[2.457s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.459s] -- Added test 'uncrustify' to check C / C++ code style
+[2.459s] -- Configured uncrustify additional arguments: 
+[2.460s] -- Added test 'xmllint' to check XML markup files
+[2.472s] -- Configuring done
+[2.513s] -- Generating done
+[2.525s] -- Build files have been written to: /home/vboxuser/Ali_ws/src/build/xarm_moveit_servo
+[2.544s] Invoked command in '/home/vboxuser/Ali_ws/src/build/xarm_moveit_servo' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/home/vboxuser/Ali_ws/src/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/src/install/xarm_controller/lib:/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Ali_ws/src/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vboxuser/Ali_ws/src/xarm_ros2/xarm_moveit_servo -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/src/install/xarm_moveit_servo
+[2.546s] Invoking command in '/home/vboxuser/Ali_ws/src/build/xarm_moveit_servo': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/home/vboxuser/Ali_ws/src/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/src/install/xarm_controller/lib:/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Ali_ws/src/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/Ali_ws/src/build/xarm_moveit_servo -- -j1 -l1
+[2.625s] [ 25%] [32mBuilding CXX object CMakeFiles/xarm_joystick_input.dir/src/xarm_joystick_input.cpp.o[0m
+[14.406s] [ 50%] [32m[1mLinking CXX shared library libxarm_joystick_input.so[0m
+[15.814s] [ 50%] Built target xarm_joystick_input
+[15.852s] [ 75%] [32mBuilding CXX object CMakeFiles/xarm_keyboard_input.dir/src/xarm_keyboard_input.cpp.o[0m
+[23.576s] [100%] [32m[1mLinking CXX executable xarm_keyboard_input[0m
+[24.130s] [100%] Built target xarm_keyboard_input
+[24.150s] Invoked command in '/home/vboxuser/Ali_ws/src/build/xarm_moveit_servo' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/home/vboxuser/Ali_ws/src/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/src/install/xarm_controller/lib:/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Ali_ws/src/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/Ali_ws/src/build/xarm_moveit_servo -- -j1 -l1
+[24.151s] Invoking command in '/home/vboxuser/Ali_ws/src/build/xarm_moveit_servo': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/home/vboxuser/Ali_ws/src/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/src/install/xarm_controller/lib:/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Ali_ws/src/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/Ali_ws/src/build/xarm_moveit_servo
+[24.164s] -- Install configuration: ""
+[24.169s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/lib/libxarm_joystick_input.so
+[24.171s] -- Set runtime path of "/home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/lib/libxarm_joystick_input.so" to ""
+[24.171s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_keyboard_input
+[24.172s] -- Set runtime path of "/home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/lib/xarm_moveit_servo/xarm_keyboard_input" to ""
+[24.172s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//config
+[24.173s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//config/xarm_moveit_servo_config.yaml
+[24.173s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch
+[24.173s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/_robot_moveit_servo.launch.py
+[24.173s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/uf850_moveit_servo_fake.launch.py
+[24.173s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/lite6_moveit_servo_realmove.launch.py
+[24.173s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/_robot_moveit_servo_realmove.launch.py
+[24.174s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/_robot_moveit_servo_fake.launch.py
+[24.174s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/uf850_moveit_servo_realmove.launch.py
+[24.174s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/xarm_moveit_servo_realmove.launch.py
+[24.174s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/lite6_moveit_servo_fake.launch.py
+[24.174s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//launch/xarm_moveit_servo_fake.launch.py
+[24.174s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//rviz
+[24.174s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo//rviz/servo.rviz
+[24.175s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/ament_index/resource_index/package_run_dependencies/xarm_moveit_servo
+[24.175s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/ament_index/resource_index/parent_prefix_path/xarm_moveit_servo
+[24.175s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/ament_prefix_path.sh
+[24.175s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/ament_prefix_path.dsv
+[24.175s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/path.sh
+[24.176s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/environment/path.dsv
+[24.177s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.bash
+[24.177s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.sh
+[24.177s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.zsh
+[24.177s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/local_setup.dsv
+[24.177s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/package.dsv
+[24.178s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/ament_index/resource_index/packages/xarm_moveit_servo
+[24.178s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/ament_index/resource_index/rclcpp_components/xarm_moveit_servo
+[24.178s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/cmake/xarm_moveit_servoConfig.cmake
+[24.178s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/cmake/xarm_moveit_servoConfig-version.cmake
+[24.178s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_moveit_servo/share/xarm_moveit_servo/package.xml
+[24.181s] Invoked command in '/home/vboxuser/Ali_ws/src/build/xarm_moveit_servo' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/home/vboxuser/Ali_ws/src/install/uf_ros_lib:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_moveit_config:/home/vboxuser/Ali_ws/src/install/xarm_gazebo:/home/vboxuser/Ali_ws/src/install/xarm_controller:/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/src/install/xarm_controller/lib:/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:/home/vboxuser/Ali_ws/src/install/uf_ros_lib/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/Ali_ws/src/build/xarm_moveit_servo

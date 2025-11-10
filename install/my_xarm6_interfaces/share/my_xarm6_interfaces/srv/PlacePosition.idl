@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_xarm6_interfaces/srv/PlacePosition.srv
+// generated code does not contain a copyright notice
+
+
+module my_xarm6_interfaces {
+  module srv {
+    struct PlacePosition_Request {
+      double x;
+
+      double y;
+
+      double z;
+
+      string frame_id;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct PlacePosition_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

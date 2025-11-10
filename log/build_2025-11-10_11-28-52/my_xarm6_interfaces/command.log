@@ -1,0 +1,2 @@
+Invoking command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces': /usr/bin/cmake /home/vboxuser/Ali_ws/src/my_xarm6_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/my_xarm6_interfaces
+Invoked command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces' returned '1': /usr/bin/cmake /home/vboxuser/Ali_ws/src/my_xarm6_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/my_xarm6_interfaces

@@ -1,0 +1,125 @@
+[0.284s] Invoking command in '/home/vboxuser/Ali_ws/build/xarm_api': CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk:/home/vboxuser/Ali_ws/install/xarm_msgs:/home/vboxuser/Ali_ws/install/xarm_description:/home/vboxuser/Ali_ws/install/orbbec_description:/home/vboxuser/Ali_ws/install/orbbec_camera:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs:/home/vboxuser/Ali_ws/install/ros2_linkattacher:/home/vboxuser/Ali_ws/install/linkattacher_msgs:/home/vboxuser/Ali_ws/install/xarm_planner:/home/vboxuser/Ali_ws/install/xarm_moveit_servo:/home/vboxuser/Ali_ws/install/xarm_moveit_config:/home/vboxuser/Ali_ws/install/xarm_gazebo:/home/vboxuser/Ali_ws/install/xarm_controller:/home/vboxuser/Ali_ws/install/d435i_xarm_setup:/home/vboxuser/Ali_ws/install/xarm_api:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin:/home/vboxuser/Ali_ws/install/mbot_demo:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/install/xarm_msgs/lib:/home/vboxuser/Ali_ws/install/orbbec_camera/lib:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib:/home/vboxuser/Ali_ws/install/ros2_linkattacher/lib:/home/vboxuser/Ali_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vboxuser/Ali_ws/install/xarm_planner/lib:/home/vboxuser/Ali_ws/install/xarm_moveit_servo/lib:/home/vboxuser/Ali_ws/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/install/xarm_controller/lib:/home/vboxuser/Ali_ws/install/xarm_api/lib:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin/lib /usr/bin/cmake /home/vboxuser/Ali_ws/src/xarm_ros2/xarm_api -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/xarm_api
+[0.496s] -- The C compiler identification is GNU 11.4.0
+[0.619s] -- The CXX compiler identification is GNU 11.4.0
+[0.654s] -- Detecting C compiler ABI info
+[0.913s] -- Detecting C compiler ABI info - done
+[0.913s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.914s] -- Detecting C compile features
+[0.915s] -- Detecting C compile features - done
+[0.918s] -- Detecting CXX compiler ABI info
+[1.096s] -- Detecting CXX compiler ABI info - done
+[1.108s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.109s] -- Detecting CXX compile features
+[1.110s] -- Detecting CXX compile features - done
+[1.128s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.035s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.217s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.354s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.538s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.545s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.556s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.578s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.623s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.683s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.687s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.173s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.210s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.288s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.310s] -- Looking for pthread.h
+[3.501s] -- Looking for pthread.h - found
+[3.502s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.164s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.166s] -- Found Threads: TRUE  
+[4.268s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[4.371s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.455s] -- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)
+[4.545s] -- Found xarm_msgs: 0.0.0 (/home/vboxuser/Ali_ws/install/xarm_msgs/share/xarm_msgs/cmake)
+[4.563s] -- Found xarm_sdk: 0.0.0 (/home/vboxuser/Ali_ws/install/xarm_sdk/share/xarm_sdk/cmake)
+[4.587s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.589s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.590s] -- Configured cppcheck include dirs: /home/vboxuser/Ali_ws/src/xarm_ros2/xarm_api/include
+[4.590s] -- Configured cppcheck exclude dirs and/or files: 
+[4.591s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.591s] -- Configured cpplint exclude dirs and/or files: 
+[4.592s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.592s] -- Added test 'lint_cmake' to check CMake code style
+[4.594s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.594s] -- Added test 'uncrustify' to check C / C++ code style
+[4.594s] -- Configured uncrustify additional arguments: 
+[4.595s] -- Added test 'xmllint' to check XML markup files
+[4.597s] -- Configuring done
+[4.644s] -- Generating done
+[4.663s] -- Build files have been written to: /home/vboxuser/Ali_ws/build/xarm_api
+[4.985s] Invoked command in '/home/vboxuser/Ali_ws/build/xarm_api' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk:/home/vboxuser/Ali_ws/install/xarm_msgs:/home/vboxuser/Ali_ws/install/xarm_description:/home/vboxuser/Ali_ws/install/orbbec_description:/home/vboxuser/Ali_ws/install/orbbec_camera:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs:/home/vboxuser/Ali_ws/install/ros2_linkattacher:/home/vboxuser/Ali_ws/install/linkattacher_msgs:/home/vboxuser/Ali_ws/install/xarm_planner:/home/vboxuser/Ali_ws/install/xarm_moveit_servo:/home/vboxuser/Ali_ws/install/xarm_moveit_config:/home/vboxuser/Ali_ws/install/xarm_gazebo:/home/vboxuser/Ali_ws/install/xarm_controller:/home/vboxuser/Ali_ws/install/d435i_xarm_setup:/home/vboxuser/Ali_ws/install/xarm_api:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin:/home/vboxuser/Ali_ws/install/mbot_demo:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/install/xarm_msgs/lib:/home/vboxuser/Ali_ws/install/orbbec_camera/lib:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib:/home/vboxuser/Ali_ws/install/ros2_linkattacher/lib:/home/vboxuser/Ali_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vboxuser/Ali_ws/install/xarm_planner/lib:/home/vboxuser/Ali_ws/install/xarm_moveit_servo/lib:/home/vboxuser/Ali_ws/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/install/xarm_controller/lib:/home/vboxuser/Ali_ws/install/xarm_api/lib:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin/lib /usr/bin/cmake /home/vboxuser/Ali_ws/src/xarm_ros2/xarm_api -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/xarm_api
+[4.986s] Invoking command in '/home/vboxuser/Ali_ws/build/xarm_api': CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk:/home/vboxuser/Ali_ws/install/xarm_msgs:/home/vboxuser/Ali_ws/install/xarm_description:/home/vboxuser/Ali_ws/install/orbbec_description:/home/vboxuser/Ali_ws/install/orbbec_camera:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs:/home/vboxuser/Ali_ws/install/ros2_linkattacher:/home/vboxuser/Ali_ws/install/linkattacher_msgs:/home/vboxuser/Ali_ws/install/xarm_planner:/home/vboxuser/Ali_ws/install/xarm_moveit_servo:/home/vboxuser/Ali_ws/install/xarm_moveit_config:/home/vboxuser/Ali_ws/install/xarm_gazebo:/home/vboxuser/Ali_ws/install/xarm_controller:/home/vboxuser/Ali_ws/install/d435i_xarm_setup:/home/vboxuser/Ali_ws/install/xarm_api:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin:/home/vboxuser/Ali_ws/install/mbot_demo:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/install/xarm_msgs/lib:/home/vboxuser/Ali_ws/install/orbbec_camera/lib:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib:/home/vboxuser/Ali_ws/install/ros2_linkattacher/lib:/home/vboxuser/Ali_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vboxuser/Ali_ws/install/xarm_planner/lib:/home/vboxuser/Ali_ws/install/xarm_moveit_servo/lib:/home/vboxuser/Ali_ws/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/install/xarm_controller/lib:/home/vboxuser/Ali_ws/install/xarm_api/lib:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin/lib /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/xarm_api -- -j4 -l4
+[5.135s] [  7%] [32mBuilding CXX object CMakeFiles/xarm_ros_driver.dir/src/xarm_driver.cpp.o[0m
+[15.346s] [ 15%] [32mBuilding CXX object CMakeFiles/xarm_ros_driver.dir/src/xarm_driver_service.cpp.o[0m
+[60.817s] [ 23%] [32m[1mLinking CXX shared library libxarm_ros_driver.so[0m
+[65.235s] [ 23%] Built target xarm_ros_driver
+[65.551s] [ 30%] [32mBuilding CXX object CMakeFiles/test_robot_states.dir/test/test_robot_states.cpp.o[0m
+[84.934s] [ 38%] [32m[1mLinking CXX executable test_robot_states[0m
+[85.781s] [ 38%] Built target test_robot_states
+[85.851s] [ 46%] [32mBuilding CXX object CMakeFiles/xarm_ros_client.dir/src/xarm_ros_client.cpp.o[0m
+[85.857s] [ 53%] [32mBuilding CXX object CMakeFiles/xarm_driver_node.dir/src/xarm_driver_node.cpp.o[0m
+[103.216s] [ 61%] [32m[1mLinking CXX executable xarm_driver_node[0m
+[109.516s] [ 61%] Built target xarm_driver_node
+[135.394s] [ 69%] [32m[1mLinking CXX shared library libxarm_ros_client.so[0m
+[137.501s] [ 69%] Built target xarm_ros_client
+[137.537s] [ 76%] [32mBuilding CXX object CMakeFiles/test_xarm_ros_client.dir/test/test_xarm_ros_client.cpp.o[0m
+[137.549s] [ 84%] [32mBuilding CXX object CMakeFiles/test_xarm_velo_move.dir/test/test_xarm_velo_move.cpp.o[0m
+[147.029s] [ 92%] [32m[1mLinking CXX executable test_xarm_velo_move[0m
+[147.049s] [100%] [32m[1mLinking CXX executable test_xarm_ros_client[0m
+[148.335s] [100%] Built target test_xarm_ros_client
+[148.403s] [100%] Built target test_xarm_velo_move
+[148.555s] Invoked command in '/home/vboxuser/Ali_ws/build/xarm_api' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk:/home/vboxuser/Ali_ws/install/xarm_msgs:/home/vboxuser/Ali_ws/install/xarm_description:/home/vboxuser/Ali_ws/install/orbbec_description:/home/vboxuser/Ali_ws/install/orbbec_camera:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs:/home/vboxuser/Ali_ws/install/ros2_linkattacher:/home/vboxuser/Ali_ws/install/linkattacher_msgs:/home/vboxuser/Ali_ws/install/xarm_planner:/home/vboxuser/Ali_ws/install/xarm_moveit_servo:/home/vboxuser/Ali_ws/install/xarm_moveit_config:/home/vboxuser/Ali_ws/install/xarm_gazebo:/home/vboxuser/Ali_ws/install/xarm_controller:/home/vboxuser/Ali_ws/install/d435i_xarm_setup:/home/vboxuser/Ali_ws/install/xarm_api:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin:/home/vboxuser/Ali_ws/install/mbot_demo:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/install/xarm_msgs/lib:/home/vboxuser/Ali_ws/install/orbbec_camera/lib:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib:/home/vboxuser/Ali_ws/install/ros2_linkattacher/lib:/home/vboxuser/Ali_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vboxuser/Ali_ws/install/xarm_planner/lib:/home/vboxuser/Ali_ws/install/xarm_moveit_servo/lib:/home/vboxuser/Ali_ws/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/install/xarm_controller/lib:/home/vboxuser/Ali_ws/install/xarm_api/lib:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin/lib /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/xarm_api -- -j4 -l4
+[148.557s] Invoking command in '/home/vboxuser/Ali_ws/build/xarm_api': CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk:/home/vboxuser/Ali_ws/install/xarm_msgs:/home/vboxuser/Ali_ws/install/xarm_description:/home/vboxuser/Ali_ws/install/orbbec_description:/home/vboxuser/Ali_ws/install/orbbec_camera:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs:/home/vboxuser/Ali_ws/install/ros2_linkattacher:/home/vboxuser/Ali_ws/install/linkattacher_msgs:/home/vboxuser/Ali_ws/install/xarm_planner:/home/vboxuser/Ali_ws/install/xarm_moveit_servo:/home/vboxuser/Ali_ws/install/xarm_moveit_config:/home/vboxuser/Ali_ws/install/xarm_gazebo:/home/vboxuser/Ali_ws/install/xarm_controller:/home/vboxuser/Ali_ws/install/d435i_xarm_setup:/home/vboxuser/Ali_ws/install/xarm_api:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin:/home/vboxuser/Ali_ws/install/mbot_demo:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/install/xarm_msgs/lib:/home/vboxuser/Ali_ws/install/orbbec_camera/lib:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib:/home/vboxuser/Ali_ws/install/ros2_linkattacher/lib:/home/vboxuser/Ali_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vboxuser/Ali_ws/install/xarm_planner/lib:/home/vboxuser/Ali_ws/install/xarm_moveit_servo/lib:/home/vboxuser/Ali_ws/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/install/xarm_controller/lib:/home/vboxuser/Ali_ws/install/xarm_api/lib:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin/lib /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/xarm_api
+[148.568s] -- Install configuration: ""
+[148.570s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/environment/library_path.sh
+[148.570s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/environment/library_path.dsv
+[148.570s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/include
+[148.571s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/include/xarm_api
+[148.571s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/include/xarm_api/xarm_msgs.h
+[148.571s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/include/xarm_api/xarm_driver.h
+[148.571s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/include/xarm_api/xarm_ros_client.h
+[148.571s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/include/xarm_api/visibility_control.h
+[148.571s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/lib/libxarm_ros_driver.so
+[148.613s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/xarm_api/lib/libxarm_ros_driver.so" to ""
+[148.613s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/lib/libxarm_ros_client.so
+[148.643s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/xarm_api/lib/libxarm_ros_client.so" to ""
+[148.643s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/lib/xarm_api/xarm_driver_node
+[148.644s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/xarm_api/lib/xarm_api/xarm_driver_node" to ""
+[148.644s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/lib/xarm_api/test_xarm_ros_client
+[148.644s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/xarm_api/lib/xarm_api/test_xarm_ros_client" to ""
+[148.644s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/lib/xarm_api/test_xarm_velo_move
+[148.644s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/xarm_api/lib/xarm_api/test_xarm_velo_move" to ""
+[148.644s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/lib/xarm_api/test_robot_states
+[148.644s] -- Set runtime path of "/home/vboxuser/Ali_ws/install/xarm_api/lib/xarm_api/test_robot_states" to ""
+[148.644s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//launch
+[148.644s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//launch/xarm7_driver.launch.py
+[148.646s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//launch/uf850_driver.launch.py
+[148.646s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//launch/xarm6_driver.launch.py
+[148.648s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//launch/lite6_driver.launch.py
+[148.649s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//launch/lib
+[148.649s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//launch/lib/robot_api_lib.py
+[148.650s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//launch/xarm5_driver.launch.py
+[148.651s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//launch/_robot_driver.launch.py
+[148.652s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//config
+[148.652s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api//config/xarm_params.yaml
+[148.653s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/ament_index/resource_index/package_run_dependencies/xarm_api
+[148.653s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/ament_index/resource_index/parent_prefix_path/xarm_api
+[148.654s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/environment/ament_prefix_path.sh
+[148.654s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/environment/ament_prefix_path.dsv
+[148.654s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/environment/path.sh
+[148.654s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/environment/path.dsv
+[148.655s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/local_setup.bash
+[148.655s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/local_setup.sh
+[148.655s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/local_setup.zsh
+[148.655s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/local_setup.dsv
+[148.655s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/package.dsv
+[148.655s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/ament_index/resource_index/packages/xarm_api
+[148.656s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/cmake/ament_cmake_export_libraries-extras.cmake
+[148.656s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/cmake/ament_cmake_export_include_directories-extras.cmake
+[148.656s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/cmake/xarm_apiConfig.cmake
+[148.656s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/cmake/xarm_apiConfig-version.cmake
+[148.656s] -- Installing: /home/vboxuser/Ali_ws/install/xarm_api/share/xarm_api/package.xml
+[148.660s] Invoked command in '/home/vboxuser/Ali_ws/build/xarm_api' returned '0': CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk:/home/vboxuser/Ali_ws/install/xarm_msgs:/home/vboxuser/Ali_ws/install/xarm_description:/home/vboxuser/Ali_ws/install/orbbec_description:/home/vboxuser/Ali_ws/install/orbbec_camera:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs:/home/vboxuser/Ali_ws/install/ros2_linkattacher:/home/vboxuser/Ali_ws/install/linkattacher_msgs:/home/vboxuser/Ali_ws/install/xarm_planner:/home/vboxuser/Ali_ws/install/xarm_moveit_servo:/home/vboxuser/Ali_ws/install/xarm_moveit_config:/home/vboxuser/Ali_ws/install/xarm_gazebo:/home/vboxuser/Ali_ws/install/xarm_controller:/home/vboxuser/Ali_ws/install/d435i_xarm_setup:/home/vboxuser/Ali_ws/install/xarm_api:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin:/home/vboxuser/Ali_ws/install/mbot_demo:/opt/ros/humble:/home/vboxuser/Ali_ws/install/uf_ros_lib LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/install/xarm_msgs/lib:/home/vboxuser/Ali_ws/install/orbbec_camera/lib:/home/vboxuser/Ali_ws/install/orbbec_camera_msgs/lib:/home/vboxuser/Ali_ws/install/ros2_linkattacher/lib:/home/vboxuser/Ali_ws/install/linkattacher_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/vboxuser/Ali_ws/install/xarm_planner/lib:/home/vboxuser/Ali_ws/install/xarm_moveit_servo/lib:/home/vboxuser/Ali_ws/install/xarm_gazebo/lib:/home/vboxuser/Ali_ws/install/xarm_controller/lib:/home/vboxuser/Ali_ws/install/xarm_api/lib:/home/vboxuser/Ali_ws/install/realsense_gazebo_plugin/lib /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/xarm_api

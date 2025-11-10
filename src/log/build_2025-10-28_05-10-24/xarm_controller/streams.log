@@ -1,0 +1,119 @@
+[0.022s] Invoking command in '/home/vboxuser/Ali_ws/src/build/xarm_controller': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vboxuser/Ali_ws/src/xarm_ros2/xarm_controller -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/src/install/xarm_controller
+[0.125s] -- The C compiler identification is GNU 11.4.0
+[0.205s] -- The CXX compiler identification is GNU 11.4.0
+[0.219s] -- Detecting C compiler ABI info
+[0.327s] -- Detecting C compiler ABI info - done
+[0.337s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.337s] -- Detecting C compile features
+[0.337s] -- Detecting C compile features - done
+[0.343s] -- Detecting CXX compiler ABI info
+[0.484s] -- Detecting CXX compiler ABI info - done
+[0.486s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.486s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.491s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.761s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.892s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.059s] -- Found hardware_interface: 2.52.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[1.323s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.324s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.340s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.362s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.389s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.870s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.878s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.917s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.036s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.041s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.075s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.078s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.107s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.134s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.156s] -- Looking for pthread.h
+[2.351s] -- Looking for pthread.h - found
+[2.354s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.543s] -- Found Threads: TRUE  
+[2.664s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.688s] -- Found controller_manager_msgs: 2.52.0 (/opt/ros/humble/share/controller_manager_msgs/cmake)
+[2.772s] -- Found xarm_msgs: 0.0.0 (/home/vboxuser/Ali_ws/src/install/xarm_msgs/share/xarm_msgs/cmake)
+[2.804s] -- Found xarm_api: 0.0.0 (/home/vboxuser/Ali_ws/src/install/xarm_api/share/xarm_api/cmake)
+[2.808s] -- Found xarm_sdk: 0.0.0 (/home/vboxuser/Ali_ws/src/install/xarm_sdk/share/xarm_sdk/cmake)
+[2.822s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.826s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.827s] -- Configured cppcheck include dirs: /home/vboxuser/Ali_ws/src/xarm_ros2/xarm_controller/include
+[2.827s] -- Configured cppcheck exclude dirs and/or files: 
+[2.830s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.830s] -- Configured cpplint exclude dirs and/or files: 
+[2.833s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.833s] -- Added test 'lint_cmake' to check CMake code style
+[2.835s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.840s] -- Added test 'uncrustify' to check C / C++ code style
+[2.840s] -- Configured uncrustify additional arguments: 
+[2.843s] -- Added test 'xmllint' to check XML markup files
+[2.847s] -- Configuring done
+[2.878s] -- Generating done
+[2.901s] -- Build files have been written to: /home/vboxuser/Ali_ws/src/build/xarm_controller
+[2.916s] Invoked command in '/home/vboxuser/Ali_ws/src/build/xarm_controller' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/vboxuser/Ali_ws/src/xarm_ros2/xarm_controller -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/src/install/xarm_controller
+[2.918s] Invoking command in '/home/vboxuser/Ali_ws/src/build/xarm_controller': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/Ali_ws/src/build/xarm_controller -- -j1 -l1
+[3.021s] [ 33%] [32mBuilding CXX object CMakeFiles/uf_robot_hardware.dir/src/hardware/uf_robot_system_hardware.cpp.o[0m
+[15.231s] [ 66%] [32mBuilding CXX object CMakeFiles/uf_robot_hardware.dir/src/hardware/uf_robot_fake_system_hardware.cpp.o[0m
+[16.917s] [100%] [32m[1mLinking CXX shared library libuf_robot_hardware.so[0m
+[19.382s] [100%] Built target uf_robot_hardware
+[19.405s] Invoked command in '/home/vboxuser/Ali_ws/src/build/xarm_controller' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vboxuser/Ali_ws/src/build/xarm_controller -- -j1 -l1
+[19.406s] Invoking command in '/home/vboxuser/Ali_ws/src/build/xarm_controller': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/Ali_ws/src/build/xarm_controller
+[19.421s] -- Install configuration: ""
+[19.424s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/uf_hardware_interface_plugins.xml
+[19.425s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/include
+[19.425s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/include/xarm_controller
+[19.425s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/include/xarm_controller/hardware
+[19.425s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/include/xarm_controller/hardware/uf_robot_system_hardware.h
+[19.426s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/include/xarm_controller/hardware/uf_robot_fake_system_hardware.h
+[19.426s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/include/xarm_controller/hardware/bak_uf_robot_fake_system_hardware.h
+[19.429s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/lib/libuf_robot_hardware.so
+[19.430s] -- Set runtime path of "/home/vboxuser/Ali_ws/src/install/xarm_controller/lib/libuf_robot_hardware.so" to ""
+[19.430s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch
+[19.430s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/xarm7_mirror_control_rviz_display.launch.py
+[19.430s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/lite6_control_rviz_display.launch.py
+[19.431s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/_dual_ros2_control.launch.py
+[19.431s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/uf850_control_rviz_display.launch.py
+[19.431s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/_ros2_control.launch.py
+[19.432s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/xarm6_control_rviz_display.launch.py
+[19.432s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/xarm5_control_rviz_display.launch.py
+[19.433s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/xarm7_control_rviz_display.launch.py
+[19.433s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/_robot_ros2_control.launch.py
+[19.433s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/lib
+[19.433s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//launch/lib/robot_controller_lib.py
+[19.433s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config
+[19.434s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/xarm7_controllers.yaml
+[19.434s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/xarm6_controllers.yaml
+[19.434s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/xarm7_mirror_controllers.yaml
+[19.435s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/lite6_controllers.yaml
+[19.435s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/xarm_gripper_controllers.yaml
+[19.435s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/uf850_gripper_controllers.yaml
+[19.435s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/xarm5_controllers.yaml
+[19.435s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/xarm7_mirror_gripper_controllers.yaml
+[19.436s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/uf850_controllers.yaml
+[19.436s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller//config/bio_gripper_controllers.yaml
+[19.436s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/environment/library_path.sh
+[19.436s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/environment/library_path.dsv
+[19.437s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/ament_index/resource_index/package_run_dependencies/xarm_controller
+[19.437s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/ament_index/resource_index/parent_prefix_path/xarm_controller
+[19.437s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/environment/ament_prefix_path.sh
+[19.438s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/environment/ament_prefix_path.dsv
+[19.438s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/environment/path.sh
+[19.438s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/environment/path.dsv
+[19.438s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/local_setup.bash
+[19.439s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/local_setup.sh
+[19.439s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/local_setup.zsh
+[19.439s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/local_setup.dsv
+[19.439s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/package.dsv
+[19.440s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/ament_index/resource_index/packages/xarm_controller
+[19.440s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/xarm_controller
+[19.440s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.441s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[19.441s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.441s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/cmake/xarm_controllerConfig.cmake
+[19.441s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/cmake/xarm_controllerConfig-version.cmake
+[19.441s] -- Installing: /home/vboxuser/Ali_ws/src/install/xarm_controller/share/xarm_controller/package.xml
+[19.451s] Invoked command in '/home/vboxuser/Ali_ws/src/build/xarm_controller' returned '0': AMENT_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api:/home/vboxuser/Ali_ws/src/install/xarm_sdk:/home/vboxuser/Ali_ws/src/install/xarm_msgs:/home/vboxuser/Ali_ws/src/install/xarm_description:/opt/ros/humble LD_LIBRARY_PATH=/home/vboxuser/Ali_ws/src/install/xarm_api/lib:/home/vboxuser/Ali_ws/src/install/xarm_sdk/lib:/home/vboxuser/Ali_ws/src/install/xarm_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vboxuser/Ali_ws/src/install/xarm_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vboxuser/Ali_ws/src/build/xarm_controller
