@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_xarm6_interfaces/srv/ObjectPosition.srv
+// generated code does not contain a copyright notice
+
+
+module my_xarm6_interfaces {
+  module srv {
+    struct ObjectPosition_Request {
+      string object_name;
+    };
+    struct ObjectPosition_Response {
+      double x;
+
+      double y;
+
+      double z;
+
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+srv/ObjectPosition.idl
+srv/ObjectPosition.srv
+srv/ObjectPosition_Request.msg
+srv/ObjectPosition_Response.msg
+srv/PlacePosition.idl
+srv/PlacePosition.srv
+srv/PlacePosition_Request.msg
+srv/PlacePosition_Response.msg
