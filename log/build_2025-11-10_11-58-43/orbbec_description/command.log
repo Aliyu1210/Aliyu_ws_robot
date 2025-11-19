@@ -1,4 +1,0 @@
-Invoking command in '/home/vboxuser/Ali_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/orbbec_description -- -j4 -l4
-Invoked command in '/home/vboxuser/Ali_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/orbbec_description -- -j4 -l4
-Invoking command in '/home/vboxuser/Ali_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/orbbec_description
-Invoked command in '/home/vboxuser/Ali_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/orbbec_description

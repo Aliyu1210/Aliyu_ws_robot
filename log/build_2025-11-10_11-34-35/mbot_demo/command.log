@@ -1,4 +1,0 @@
-Invoking command in '/home/vboxuser/Ali_ws/build/mbot_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/mbot_demo -- -j4 -l4
-Invoked command in '/home/vboxuser/Ali_ws/build/mbot_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/mbot_demo -- -j4 -l4
-Invoking command in '/home/vboxuser/Ali_ws/build/mbot_demo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/mbot_demo
-Invoked command in '/home/vboxuser/Ali_ws/build/mbot_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/mbot_demo

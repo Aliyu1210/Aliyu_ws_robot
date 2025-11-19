@@ -1,6 +1,0 @@
-Invoking command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/Ali_ws/src/my_xarm6_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/my_xarm6_interfaces
-Invoked command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vboxuser/Ali_ws/src/my_xarm6_interfaces -DCMAKE_INSTALL_PREFIX=/home/vboxuser/Ali_ws/install/my_xarm6_interfaces
-Invoking command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/my_xarm6_interfaces -- -j4 -l4
-Invoked command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/my_xarm6_interfaces -- -j4 -l4
-Invoking command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/my_xarm6_interfaces
-Invoked command in '/home/vboxuser/Ali_ws/build/my_xarm6_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vboxuser/Ali_ws/build/my_xarm6_interfaces

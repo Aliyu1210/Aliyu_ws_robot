@@ -1,2 +1,0 @@
-[0.075s] Invoking command in '/home/vboxuser/Ali_ws/build/realsense_gazebo_plugin': /usr/bin/cmake --build /home/vboxuser/Ali_ws/build/realsense_gazebo_plugin -- -j4 -l4
-[1.261s] [100%] Built target realsense_gazebo_plugin

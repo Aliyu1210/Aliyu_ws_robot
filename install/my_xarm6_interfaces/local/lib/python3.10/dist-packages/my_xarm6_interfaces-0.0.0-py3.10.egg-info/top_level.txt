@@ -1,1 +1,0 @@
-my_xarm6_interfaces

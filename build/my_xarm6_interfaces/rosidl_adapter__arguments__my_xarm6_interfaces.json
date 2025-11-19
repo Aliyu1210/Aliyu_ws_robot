@@ -1,7 +1,0 @@
-{
-  "package_name": "my_xarm6_interfaces",
-  "non_idl_tuples": [
-    "/home/vboxuser/Ali_ws/src/my_xarm6_interfaces:srv/ObjectPosition.srv",
-    "/home/vboxuser/Ali_ws/src/my_xarm6_interfaces:srv/PlacePosition.srv"
-  ]
-}
